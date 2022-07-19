@@ -1,5 +1,5 @@
 ---
-title:  "[DataStructure] HashTable" 
+title:  "[DataStructure] HashTable 이론 정리" 
 
 categories:
   - DataStructure

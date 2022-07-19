@@ -1,5 +1,5 @@
 ---
-title:  "[DataStructure] DoubleLinkedList" 
+title:  "[DataStructure] DoubleLinkedList 이론 정리" 
 
 categories:
   - DataStructure

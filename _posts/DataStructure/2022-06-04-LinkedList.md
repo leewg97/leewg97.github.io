@@ -1,5 +1,5 @@
 ---
-title:  "[DataStructure] LinkedList" 
+title:  "[DataStructure] LinkedList 이론 정리" 
 
 categories:
   - DataStructure
