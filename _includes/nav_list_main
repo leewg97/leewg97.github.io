@@ -12,14 +12,14 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "JAVA" %}
+                    {% if category[0] == "Java" %}
                         <li><a href="/categories/java" class="">JAVA ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "SPRING" %}
+                    {% if category[0] == "Spring" %}
                         <li><a href="/categories/spring" class="">SPRING ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
