@@ -1,5 +1,5 @@
 ---
-title: "알고리즘 구현 (with JAVA)"
+title: "알고리즘 구현 (with Java)"
 layout: archive
 permalink: categories/algorithm
 author_profile: true
