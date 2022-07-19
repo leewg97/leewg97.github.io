@@ -13,6 +13,7 @@ date: 2022-06-03
 last_modified_at: 2022-06-03
 ---
 
+---
 ## 자료구조 알고리즘
 
 자료(data)와 자료구조(data structure)
@@ -26,9 +27,7 @@ last_modified_at: 2022-06-03
 검색에 소요되는 시간에 따라 하한 ~ 상한
 
 하한 / 상한 / 하한 상한 : 상한점은 빅오 표기법, 하한점은 오메가 표기법, 상한/하한은 세타
-
----
-
+<br><br>
 **Big-O의 특징**
 
 -   O(1) < O(logN) < O(N) < O(NlogN) < O(N2) < O(2N)
@@ -52,17 +51,22 @@ last_modified_at: 2022-06-03
     -   밑이 2인 log → logn = k(시행 횟수) → k번의 시행 → logn의 시간복잡도를 가짐
 -   O(NlogN)
     -   Merge sort : 주어진 data 집합에서 절반씩 나누며 분할하는 과정 (이때 logn의 시간복잡도를 먼저 갖게 됨) → 하나씩 값을 비교하는 과정 → 이때 데이터 갯수인 N번만큼 비교하게 되므로 NlogN이 됨
+---
+<br><br>
 
-### Stack
+<br><br>
 
+## Stack
+---
 -   후입선출(Last-In-Fist-Out : LIFO)
     -   ex) ctrl + z / 인터넷 뒤로가기
 -   데이터를 넣는 작업 : push()
 -   데이터를 빼는 작업 : pop()
 -   데이터를 그대로 둔 채 가장 위에 있는 데이터를 가지고 오는 것 : top(), peek()<어떤 데이터가 있는지 확인만>
+<br><br>
 
-### Queue
-
+## Queue
+---
 -   선입선출(First-In-Fast-Out : FIFO)
 -   순서를 보장하는 프로그램
     -   ex) 사람이 몰린 이벤트 프로그램
