@@ -14,7 +14,7 @@ last_modified_at: 2022-04-01
 ---
 
 ## Colne(복제)
----
+
 <br>
 git clone 주소 (github상의 repositories 주소)
 
@@ -66,7 +66,7 @@ Commit을 설명하는 내용이어야 하며 가독성이 좋아야 한다. ex)
 <br><br>
 
 ## Git init
----
+
 <br>
 - Clone과 반대 방향
     - git init → local 시작 → remote 끌어올리기
