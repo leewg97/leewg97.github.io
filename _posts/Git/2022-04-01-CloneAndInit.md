@@ -1,5 +1,6 @@
 ---
 title:  "[Git] Clone & Init" 
+excerpt: "Git Clone & Init"
 
 categories:
   - Git
