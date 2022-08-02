@@ -6,7 +6,7 @@ excerpt: "Exception"
 categories:
   - Java
 tags:
-  - [Java]
+  - [Java, Exception]
 
 toc: true
 toc_sticky: true
