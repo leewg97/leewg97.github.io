@@ -4,7 +4,7 @@ excerpt: "JPA"
 
 
 categories:
-  - SpringBoot
+  - JPA
 tags:
   - [Java, SpringBoot, JPA]
 
@@ -30,7 +30,7 @@ last_modified_at: 2022-08-17
 
         userRepository.findAll(example).forEach(System.out::println);
     }
-```
+``` 
 
 ## 결과
 ```
