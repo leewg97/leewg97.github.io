@@ -53,3 +53,33 @@ User(id=7, name=deiu, email=deiu@gmail.com, createdAt=2022-08-17T17:15:13.098719
 User(id=8, name=ronny, email=ronny@gmail.com, createdAt=2022-08-17T17:15:13.098719, updatedAt=2022-08-17T17:15:13.098719)
 
 ```
+
+## 양방향 like 검색
+```java
+        /* 양방향 like 검색 */
+        User user = new User();
+        user.setEmail("naver");
+
+        ExampleMatcher matcher = ExampleMatcher.matching().withMatcher("email", contains());
+        Example<User> example = Example.of(user, matcher);
+
+
+        userRepository.findAll(example).forEach(System.out::println);
+```
+
+## 결과
+```
+Hibernate: 
+    select
+        user0_.id as id1_0_,
+        user0_.createdAt as createda2_0_,
+        user0_.email as email3_0_,
+        user0_.name as name4_0_,
+        user0_.updatedAt as updateda5_0_ 
+    from
+        USERS user0_ 
+    where
+        user0_.email like ? escape ?
+User(id=5, name=chris, email=chris@naver.com, createdAt=2022-08-17T17:03:14.577165, updatedAt=2022-08-17T17:03:14.577165)
+User(id=6, name=brendon, email=brendon@naver.com, createdAt=2022-08-17T17:05:13.098719, updatedAt=2022-08-17T17:05:13.098719)
+```
