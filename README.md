@@ -1,2 +1,2 @@
-# [WonGeun's Blog](https://leewg97.github.io/)
+# [My Dev Blog](https://leewg97.github.io/)
 
