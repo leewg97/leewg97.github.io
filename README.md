@@ -1,2 +1,2 @@
-# [My Dev Blog](https://leewg97.github.io/)
+# [My Blog](https://leewg97.github.io/)
 
