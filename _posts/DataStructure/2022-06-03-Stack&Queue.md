@@ -55,7 +55,7 @@ last_modified_at: 2022-06-03
 <br>
 
 ## Stack
----
+
 -   후입선출(Last-In-Fist-Out : LIFO)
     -   ex) ctrl + z / 인터넷 뒤로가기
 -   데이터를 넣는 작업 : push()
@@ -64,7 +64,7 @@ last_modified_at: 2022-06-03
 <br><br>
 
 ## Queue
----
+
 -   선입선출(First-In-Fast-Out : FIFO)
 -   순서를 보장하는 프로그램
     -   ex) 사람이 몰린 이벤트 프로그램
