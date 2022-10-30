@@ -13,8 +13,7 @@ date: 2022-06-04
 last_modified_at: 2022-06-04
 ---
 
-### Linked List
-
+## Linked List
 
 : Node라는 객체로 구성되어 있음
 
@@ -48,7 +47,7 @@ last_modified_at: 2022-06-04
 -   Head를 넘어서부터 데이터를 넣는 것
 -   코드의 구현에 있어 간결해짐
 
-### DoubleLinkedList
+## DoubleLinkedList
 
 -   LinkedList와 다르게 Head 와 Tail을 각각 따로 갖게 됨
 -   next와 prev를 함께 갖고 있음 : prev를 위한 공간을 더 사용한다는 의미
