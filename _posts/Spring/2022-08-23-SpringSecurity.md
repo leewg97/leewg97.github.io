@@ -1,12 +1,12 @@
 ---
-title:  "[SpringBoot] Spring Security" 
+title:  "[Spring] Spring Security" 
 excerpt: "Spring Security"
 
 
 categories:
-  - SpringBoot
+  - Spring
 tags:
-  - [Java, SpringBoot, Spring Security, Windows]
+  - [Java, Spring, Spring Security, Windows]
 
 toc: true
 toc_sticky: true
@@ -14,7 +14,6 @@ toc_sticky: true
 date: 2022-08-23
 last_modified_at: 2022-08-23
 ---
-
 
 ## 스프링 시큐리티
 
